@@ -1,0 +1,114 @@
+/*
+----------------------------------------
+Tantek Celik's Whitepsace Reset
+     Author:    Tantek Celik, Shane Riley
+    Version:    (CC) 2010 Some Rights Reserved - http://creativecommons.org/licenses/by/2.0
+Description:  Resets default styling of common browsers to a common base
+----------------------------------------
+*/
+
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 18px 'Roboto Condensed', sans-serif;
+  color: #3e606f;
+  background-image: linear-gradient(to bottom, #d2dbbd, #fcfff5);
+  background-repeat: no-repeat;
+}
+
+header {
+  padding: 20px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 15px 0 35px 0;
+}
+
+h1 {
+  float: left;
+  padding: 45px 0 15px 115px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #193441;
+  background: transparent url("logo.png") 0 0 no-repeat;
+
+}
+
+nav {
+  float: right;
+  padding: 75px 0 0 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px 40px 14px 40px;
+  color: #91aa9d;
+  text-decoration: none;
+  background-color: #fcfff5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+nav a.active {
+  color: #fcfff5;
+  background: #91aa9d;
+}
+
+main {
+  width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  clear: both;
+  overflow: auto;
+  padding: 30px;
+  box-shadow: 0px 5px 5px 0px rgba(181,181,181,1);
+}
+
+main h2, main p, main img {
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 32px;
+  padding-top: 36px;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+main p {
+  padding-bottom: 20px;
+}
+
+figure img {
+  float: right;
+}
+
+figure {
+  padding: 0 0 24px 30px;
+  float: right;
+}
